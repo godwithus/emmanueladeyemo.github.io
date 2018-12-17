@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Emmanuel Adeyemo | Graphics Designer & Web Developer</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta content="" name="description"/>
+        <meta content="" name="author"/>
+
+        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+        <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
+        <link href="css/animate.css" rel="stylesheet">
+
+        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+
+        <link rel="shortcut icon" href="img/favicon.png"/>
+        <style>
+            .image {
+                opacity: 1;
+                transition: .5s ease;
+                backface-visibility: hidden;
+            }
+        
+            .middle {
+                transition: .5s ease;
+                opacity: 0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                text-align: center;
+            }
+        
+            .work-overlay:hover .image {
+                opacity: 0.3;
+            }
+        
+            .work-overlay:hover .middle {
+                opacity: 1;
+            }
+        
+            .text {
+                background-color: #17bed2;
+                color: white;
+                font-size: 16px;
+                padding: 16px 32px;
+            }
+            .text:hover{
+                color: #ffffff;
+            }
+        </style>
+    </head>
+
+    <body id="body" data-spy="scroll" data-target=".header">
+
+        <header class="header navbar-fixed-top">
+            <!-- Navbar -->
+            <nav class="navbar" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="menu-container js_nav-item">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="toggle-icon"></span>
+                        </button>
+
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a class="logo-wrap" href="#body">
+                                <img class="logo-img logo-img-main" src="img/logo.png" alt="Asentus Logo">
+                                <img class="logo-img logo-img-active" src="img/logo-dark.png" alt="Asentus Logo">
+                            </a>
+                        </div>
+                        <!-- End Logo -->
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse nav-collapse">
+                        <div class="menu-container">
+                            <ul class="nav navbar-nav navbar-nav-right">
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">Home</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">About</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#experience">Experience</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">Work</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Navbar Collapse -->
+                </div>
+            </nav>
+            <!-- Navbar -->
+        </header>
+        <!--========== END HEADER ==========-->
+
+        <!--========== SLIDER ==========-->
+        <div class="promo-block parallax-window" data-parallax="scroll" data-image-src="img/1920x1080/01.jpg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="promo-block-divider">
+                            <h1 class="promo-block-title">Emmanuel <br/> Adeyemo</h1>
+                            <p class="promo-block-text">Graphic Designer &amp; Web Developer</p>
+                        </div>
+                        <ul class="list-inline">
+                            <li><a href="https://facebook.com/adeyemoemmanuelsunday" class="social-icons"  target='_blank'><i class="icon-social-facebook"></i></a></li>
+                            <li><a href="https://github.com/godwithus" class="social-icons" target='_blank'><i class="icon-social-github"  ></i></a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!--========== SLIDER ==========-->
+
+        <!--========== PAGE LAYOUT ==========-->
+        <!-- About -->
+        <div id="about">
+            <div class="container content-lg">
+                <div class="row">
+                    <div class="col-sm-3 sm-margin-b-30">
+                        <div class="text-right sm-text-left">
+                            <h2 class="margin-b-0">Introduction</h2>
+                            <p>What I am all about</p>
+                        </div>
+                        <img src="img/profile3.jpg" class="img-responsive img-rounded" />
+                    </div>
+                    <div class="col-sm-8 col-sm-offset-1">
+                        <div class="margin-b-60">
+                            <p><i> A good name is rather to be chosen than great riches, and loving favour rather than silver and gold </i></p>
+                            <p>Hello, am <b>Emmanuel Adeyemo</b> my skills are broad: from graphics design, front end to back end web development. I enjoy each aspect, and love designing graphics & building web apps  from start to finish</p>
+                            <p>I design and code beautifully simple things, and I love what I do.</p>
+                        </div>
+
+                        <!-- Progress Box -->
+                        <div class="progress-box">
+                            <h5>HTML <span class="color-heading pull-right">96%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="96"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>CSS <span class="color-heading pull-right">90%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>JavaSript <span class="color-heading pull-right">82%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="82"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>PHP <span class="color-heading pull-right">87%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="87"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>Photoshop <span class="color-heading pull-right">75%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="75"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>CorelDraw <span class="color-heading pull-right">95%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="95"></div>
+                            </div>
+                        </div>
+                        <!-- End Progress Box -->
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!-- End About -->
+
+        <!-- Experience -->
+        <div id="experience">
+            <div class="bg-color-sky-light" data-auto-height="true">
+                <div class="container content-lg">
+                    <div class="row">
+                        <div class="col-sm-3 sm-margin-b-30">
+                            <div class="text-right sm-text-left">
+                                <h2 class="margin-b-0">Experience</h2>
+                                <p>I can do all things through Christ which strengtheneth me.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-8 col-sm-offset-1">
+                            <div class="row row-space-2 margin-b-4">
+                                <div class="col-md-4 md-margin-b-4">
+                                    <div class="service" data-height="height">
+                                        <div class="service-element">
+                                            <i class="service-icon icon-magic-wand"></i>
+                                        </div>
+                                        <div class="service-info">
+                                            <h3>Front-end</h3>
+                                            <p class="margin-b-5">I code from scratch, and develope using frameworks and liberies. I enjoy bringing ideas to life.</p>
+                                        </div>
+                                        <a href="#" class="content-wrapper-link"></a>    
+                                    </div>
+                                </div>
+                                <div class="col-md-4 md-margin-b-4">
+                                    <div class="service bg-color-base wow zoomIn" data-height="height" data-wow-duration=".3" data-wow-delay=".1s">
+                                        <div class="service-element">
+                                            <i class="service-icon color-white icon-vector"></i>
+                                        </div>
+                                        <div class="service-info">
+                                            <h3 class="color-white">Graphics</h3>
+                                            <p class="color-white margin-b-5">I value clean design patterns, simple content structure, thoughtful interactions and best of result.</p>
+                                        </div>
+                                        <a href="#" class="content-wrapper-link"></a>    
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="service" data-height="height">
+                                        <div class="service-element">
+                                            <i class="service-icon icon-loop"></i>
+                                        </div>
+                                        <div class="service-info">
+                                            <h3>Back-end</h3>
+                                            <p class="margin-b-5">Building up the server-side web application logic and integration of the work to front-end developer.</p>
+                                        </div>
+                                        <a href="#" class="content-wrapper-link"></a>    
+                                    </div>
+                                </div>
+                            </div>
+                            <!--// end row -->
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+        </div>
+        <!-- End Experience -->
+
+        <!-- Work -->
+        <div id="work">
+            <div class="container content-lg">
+                <div class="row">
+                    <div class="col-sm-3 sm-margin-b-30">
+                        <div class="text-right sm-text-left">
+                            <h2 class="margin-b-0">Works</h2>
+                            <p>I build the real value! <br/><i>... which leadeth thee by the way that thou shouldest go</i></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-sm-offset-1">
+                        <!-- Masonry Grid -->
+                        <div class="masonry-grid row row-space-2">
+                            <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
+                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-8 margin-b-4">
+                                <!-- Work -->
+                                <div class="work work-popup-trigger">
+                                    <div class="work-overlay">
+                                        <img class="full-width img-responsive image" src="img/url_shortener.jpg" alt="Portfolio Image">
+                                        <div class="middle">
+                                            <a href="https://shortcut001.000webhostapp.com/" class="text"  target='_blank'>View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Work -->
+                            </div>
+                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4">
+                                <!-- Work -->
+                                <div class="work work-popup-trigger">
+                                    <div class="work-overlay">
+                                        <img class="full-width img-responsive image" src="img/todo.jpg" alt="Portfolio Image">
+                                        <div class="middle">
+                                                <a href="https://ademmanueltopbuzz.000webhostapp.com" class="text"  target='_blank'>View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Work -->
+                            </div>
+                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
+                                <!-- Work -->
+                                <div class="work work-popup-trigger">
+                                    <div class="work-overlay">
+                                        <img class="full-width img-responsive image" src="img/course_registration.jpg" alt="Portfolio Image">
+                                        <div class="middle">
+                                                <a href="http://bit.ly/bluePrintForCourseReg" class="text"  target='_blank'>View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Work -->
+                            </div>
+                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
+                                <!-- Work -->
+                                <div class="work work-popup-trigger">
+                                    <div class="work-overlay">
+                                        <img class="full-width img-responsive image" src="img/vote_count.jpg" alt="Portfolio Image">
+                                        <div class="middle">
+                                                <a href="https://votecount.000webhostapp.com/" class="text"  target='_blank'>View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Work -->
+                            </div>
+                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
+                                <!-- Work -->
+                                <div class="work work-popup-trigger">
+                                    <div class="work-overlay">
+                                        <img class="full-width img-responsive image" src="img/rccg maranatha.jpg" alt="Portfolio Image">
+                                        <div class="middle">
+                                                <a href="http://rccgmaranatha.com.ng" class="text"  target='_blank'>View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Work -->
+                            </div>
+                        </div>
+                        <!-- End Masonry Grid -->
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!-- End Work -->
+            
+        <!-- Contact -->
+        <div id="contact">
+            <div class="bg-color-sky-light">
+                <div class="container content-lg">
+                    <div class="row">
+                        <div class="col-sm-3 sm-margin-b-30">
+                            <div class="text-right sm-text-left">
+                                <h2 class="margin-b-0">Contacts</h2>
+                                <p>Call on me.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-8 col-sm-offset-1">
+                            <div class="row">
+                                <div class="col-md-3 col-xs-6 md-margin-b-30">
+                                    <h5>Location</h5>
+                                    <a href="#">Lagos, Nigeria</a>
+                                </div>
+                                <div class="col-md-3 col-xs-6 md-margin-b-30">
+                                    <h5>Phone</h5>
+                                    <a href="#">(+234) 817 5876 192</a>
+                                </div>
+                                <div class="col-md-3 col-xs-6">
+                                    <h5>Email</h5>
+                                    <a href="mailto:adeyemoemmanuel001@gmail.com">adeyemoemmanuel001@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+        </div>
+        <!-- End Contact -->
+        <!--========== END PAGE LAYOUT ==========-->
+
+        <!-- Back To Top -->
+        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+
+        <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+        <!-- CORE PLUGINS -->
+        <script src="vendor/jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL PLUGINS -->
+        <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+        <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+        <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
+        <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery.parallax.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery.appear.js" type="text/javascript"></script>
+        <script src="vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
+        <script src="vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL SCRIPTS -->
+        <script src="js/layout.min.js" type="text/javascript"></script>
+        <script src="js/components/progress-bar.min.js" type="text/javascript"></script>
+        <script src="js/components/masonry.min.js" type="text/javascript"></script>
+        <script src="js/components/wow.min.js" type="text/javascript"></script>
+
+    </body>
+    <!-- END BODY -->
+</html>
